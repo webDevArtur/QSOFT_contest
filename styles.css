@@ -73,8 +73,9 @@ body {
 .partners {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
-    align-items: center; /* Центрирование элементов по вертикали */
+    align-items: center;
 }
 
 .partners__content {
@@ -104,7 +105,7 @@ body {
     transform: scale(1.05);
 }
 
-@media only screen and (max-width: 1240px) {
+@media only screen and (max-width: 1279px) {
     .header__content {
         display: flex;
         align-items: center;
@@ -144,7 +145,7 @@ body {
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .header {
         height: 125px;
     }
